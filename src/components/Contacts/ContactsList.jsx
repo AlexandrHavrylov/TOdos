@@ -33,7 +33,7 @@ export default function ContactsList() {
         type="text"
         name="name"
       />
-      {filtredContacts.length > 0 ? (
+      {filtredContacts?.length > 0 ? (
         <ContactList>
           {filtredContacts.map(({ id, name, number }) => (
             <Contact key={id} id={id} name={name} number={number} />
