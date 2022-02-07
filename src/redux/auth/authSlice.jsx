@@ -30,7 +30,7 @@ const auth = createSlice({
     },
 
     [logInUser.rejected]() {
-      Notiflix.Notify.failure("Ошибка");
+      Notiflix.Notify.failure("Не правильный логин или пароль");
     },
 
     [logOutUser.fulfilled](state) {
