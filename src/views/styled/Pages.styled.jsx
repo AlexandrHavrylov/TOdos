@@ -6,6 +6,7 @@ export const Title = styled.h1`
 `;
 
 export const AuthForm = styled.form`
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   padding: 15px;
